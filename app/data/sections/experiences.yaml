@@ -1,0 +1,61 @@
+# section information
+section:
+  name: Experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Xero
+    url: "https://www.xero.com"
+    location: Denver, CO
+    # company overview
+    overview: Cloud accounting for small to medium businesses
+  positions:
+  - designation: Site Reliability Engineer
+    start: Jan 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design and develop Reliability tooling to assist in resource ownership
+    - Respond to and manage relability incidents with a goal of quick resolution
+    - Develop and maintain AWS infrastructure
+
+  - designation: Site Reliability Intern
+    start: May 2019
+    end: Aug 2019
+    responsibilities:
+    - Learn AWS infrastructure techniques and the tenets of cloud based software
+    - Develop scripting tool to convert CSV data to yaml configs
+
+- company:
+    name: Coastal Carolina University.
+    url: "https://www.coastal.edu"
+    location: Conway, SC
+    overview: A public university in Conway, South Carolina.
+  positions: 
+  - designation: Computer Science Tutor
+    start: Jan 2019
+    end: Dec 2019
+    responsibilities:
+    - Tutor for the CS department tasked with assisting students in related coursework.
+    - Honed my skills through tutoring in Java, operating systems, python, and Linux
+
+- company:
+    name: Chick-Fil-A
+    # url: "https://www.intern.com"
+    location: Myrtle Beach, SC
+    # overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  positions:
+  - designation: Front of House Team Captain
+    start: Jun 2013
+    end: May 2019
+    responsibilities:
+    - Key Holder responsible for both opening and closing store duties
+    - Handle, count, and order money from Loomis Cash Management Systems
+    - Communicated clearly and positively with co-workers and management
