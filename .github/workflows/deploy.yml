@@ -25,7 +25,7 @@ jobs:
         hugo-version: 'latest'
     
     - name: Build Site
-      run: hugo
+      run: hugo mod tidy
     
     - name: Deploy
       run: hugo deploy --target=s3
