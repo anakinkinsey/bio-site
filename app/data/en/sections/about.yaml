@@ -9,15 +9,15 @@ section:
 # your designation
 designation: Site Reliability Engineer
 # your company information
-company:
-  name: Xero
-  url: "https://www.xero.com"
+# company:
+#   name: Xero
+#   url: "https://www.xero.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am a Site Reliability Engineer with a year of experience managing complex systems in AWS. I primarily use Go and Terraform to develop project components using Infrastructure as Code and Serverless methods."
+summary: "A Site Reliability Engineer with 5+ years of experience managing complex systems in AWS. I primarily use Go and Terraform to develop project components using Infrastructure as Code and Serverless methods."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -30,9 +30,9 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://github.com/anakinkinsey"
 
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "#"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
@@ -49,25 +49,25 @@ socialLinks:
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
-softSkills:
-- name: Leadership
-  percentage: 75
-  color: blue
-- name: Team Work
-  percentage: 90
-  color: yellow
-- name: Communication
-  percentage: 100
-  color: pink
-- name: Hard Working
-  percentage: 80
-  color: green
-- name: Fast Learner
-  percentage: 90
-  color: sky
-- name: Problem Solving
-  percentage: 90
-  color: orange
+# softSkills:
+# - name: Leadership
+#   percentage: 75
+#   color: blue
+# - name: Team Work
+#   percentage: 90
+#   color: yellow
+# - name: Communication
+#   percentage: 100
+#   color: pink
+# - name: Hard Working
+#   percentage: 80
+#   color: green
+# - name: Fast Learner
+#   percentage: 90
+#   color: sky
+# - name: Problem Solving
+#   percentage: 90
+#   color: orange
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1
 #   percentage: 75

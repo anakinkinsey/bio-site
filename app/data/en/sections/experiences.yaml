@@ -17,22 +17,40 @@ experiences:
     # company overview
     overview: Cloud accounting for small to medium businesses
   positions:
+  - designation: Senior Site Reliability Engineer
+    start: Jan 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Dec 2023
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+      - Investigated and upgraded an unknown Go codebase to unblock a portfolio wide migration, 
+        the dependency was discovered late in the migration and had to be upgraded within just a few days to meet company timelines
+      - Led the technical migration of an internal tool from inception to delivery to meet the timelines for a vendor transition, 
+        this included collaborating with dependent teams and mitigating risks via LaunchDarkly
+      - Mentored fellow Engineers on Go best practices, allowing for more consistent/readable codebases
+      - Facilitated SLO and Incident training for teams across the US/UK
+      - Provided support via on call rotation using PagerDuty for SRE
+      - Managed large scale incidents across multiple teams as the Incident Commander
+
   - designation: Site Reliability Engineer
     start: Jan 2020
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop Reliability tooling to assist in resource ownership
-    - Respond to and manage relability incidents with a goal of quick resolution
-    - Develop and maintain AWS infrastructure
+      - Architected a product to inform teams of required AWS Maintenance, providing reminders, due dates, and reports for managers
+      - Developed and maintained an automated system to tag AWS resources using Serverless (Lambda, SQS, SNS), written in Go and Terraform
+      - Created a frontend page to surface AWS infrastructure information for teams, written in Typescript using React
+      - Created a service to search over past incidents to easily surface incident learnings
+      - Created monitors, alerts, and dashboards for our Products using NewRelic and SumoLogic
+      - Wrote Terraform modules to deploy resources across multiple AWS accounts
 
   - designation: Site Reliability Intern
     start: May 2019
     end: Aug 2019
     responsibilities:
-    - Learn AWS infrastructure techniques and the tenets of cloud based software
-    - Develop scripting tool to convert CSV data to yaml configs
+      - Learned the tenants of Serverless computing while focusing on learning AWS
+      - Developed a system to automatically renew AWS ACM certs
 
 - company:
     name: Coastal Carolina University.
@@ -46,17 +64,3 @@ experiences:
     responsibilities:
     - Tutor for the CS department tasked with assisting students in related coursework.
     - Honed my skills through tutoring in Java, operating systems, python, and Linux
-
-- company:
-    name: Chick-Fil-A
-    # url: "https://www.intern.com"
-    location: Myrtle Beach, SC
-    # overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Front of House Team Captain
-    start: Jun 2013
-    end: May 2019
-    responsibilities:
-    - Key Holder responsible for both opening and closing store duties
-    - Handle, count, and order money from Loomis Cash Management Systems
-    - Communicated clearly and positively with co-workers and management
