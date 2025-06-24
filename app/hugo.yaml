@@ -43,9 +43,9 @@ enableEmoji: true
 
 # Custom parameters
 params:
-  # features:
-  #   darkMode:
-  #     enable: true
+  features:
+    darkMode:
+      enable: true
   # Copyright Notice
   copyright: © 2025 Copyright.
 
